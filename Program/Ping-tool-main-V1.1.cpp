@@ -184,7 +184,7 @@ int main()
 			}
 			if(ord=="start") 
 			{
-				if(pingsite!="UnSet")
+				if(pingsize!=-1&&pingthreads!=-1&&pingsite!="UnSet")
 				{
 					string comm;
 					char* c=new char[1005];
@@ -195,7 +195,6 @@ int main()
 					{
 						system(command);
 					}
-					cout << "START!" << endl;
 				}
 				else
 				{
