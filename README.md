@@ -1,7 +1,7 @@
 # Ping-Tool
 This is a tool by cpp.You can use this tool to ping other on windows(don't accack others!🤯).
 
-![image.png](https://i.loli.net/2020/04/10/1MPHDRG5oCuKmft.png)
+![image.png](https://i.loli.net/2020/04/11/XsgVWDBptzQMf24.png)
 
 (The ping windows will automatic minimization,and it won't effect your work!)
 
@@ -30,3 +30,11 @@ Download it *NOW*!
 [🌏Program](https://github.com/waterblock79/Ping-Tool/blob/master/Program/Ping-tool-main-V1.2.cpp)
 
 [📦Software](https://github.com/waterblock79/Ping-Tool/raw/master/Software/Ping-tool-main-V1.2.exe)
+
+---
+
+support language:
+
+* English   EN  
+
+* Mandarin  CH  中文
