@@ -394,6 +394,7 @@ int main()
 					color(1,1,1);
 					cout << "PingÏß³Ì=" << pingthreads << endl;
 				}
+				continue;
 			}
 			else
 			{
