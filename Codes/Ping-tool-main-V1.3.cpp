@@ -96,50 +96,50 @@ void help()
 	if(lan=="en")
 		SetConsoleTitle("Ping-Tool # By waterblock79");
 	if(lan=="ch")
-		SetConsoleTitle("Æ´Í¼Ping¹¤¾ß # By waterblock79");
+		SetConsoleTitle("æ‹¼å›¾Pingå·¥å…· # By waterblock79");
 	color(0,1,1);
 	if(lan=="en") 
 		cout << "_____COMMEND LIST_____" << endl;
 	if(lan=="ch")
-		cout << "_____¿ØÖÆÃüÁîÁÐ±í_____" << endl;
+		cout << "_____æŽ§åˆ¶å‘½ä»¤åˆ—è¡¨_____" << endl;
 	cout << "|" << endl;
 	cout << "|__";
 	color(1,1,0);
 	if(lan=="en")
-		cout << "SET PING SIZE -- ";
+		cout << "SET PING SIZE YOU NEED-- ";
 	if(lan=="ch")
-		cout << "ÉèÖÃPing°ü´óÐ¡ -- ";
+		cout << "è®¾ç½®PingåŒ…å¤§å° -- ";
 	color(1,0,1);
 	if(lan=="en")
 		cout << "setsize [size]" << endl;
 	if(lan=="ch")
-		cout << "setsize [´óÐ¡]" << endl;
+		cout << "setsize [å¤§å°]" << endl;
 	color(0,1,1);
 	cout << "|" << endl;
 	cout << "|__";
 	color(1,1,0);
 	if(lan=="en")
-		cout << "SET PING WEBSITE OR IP -- ";
+		cout << "SET THE WEBSITE OR IP YOU WANNA PING -- ";
 	if(lan=="ch")
-		cout << "ÉèÖÃÐèÒªPingµÄÍøÖ·»òÕßIP -- ";
+		cout << "è®¾ç½®éœ€è¦Pingçš„ç½‘å€æˆ–è€…IP -- ";
 	color(1,0,1);
 	if(lan=="en")
 		cout << "setip [website/ip]" << endl;
 	if(lan=="ch")
-		cout << "setip [ÍøÖ·»òIP]" << endl;
+		cout << "setip [ç½‘å€æˆ–IP]" << endl;
 	color(0,1,1);
 	cout << "|" << endl;
 	cout << "|__";
 	color(1,1,0);
 	if(lan=="en")
-		cout << "SET PING THREADS -- ";
+		cout << "SET THE THREADS -- ";
 	if(lan=="ch")
-		cout << "ÉèÖÃPingÏß³Ì -- "; 
+		cout << "è®¾ç½®Pingçº¿ç¨‹ -- "; 
 	color(1,0,1);
 	if(lan=="en")
 		cout << "setthread [threads]" << endl;
 	if(lan=="ch")
-		cout << "setthread [Ïß³ÌÊý]" << endl;
+		cout << "setthread [çº¿ç¨‹æ•°]" << endl;
 	color(0,1,1);
 	cout << "|" << endl;
 	cout << "|__";
@@ -147,7 +147,7 @@ void help()
 	if(lan=="en")
 		cout << "STATE -- ";
 	if(lan=="ch")
-		cout << "Ð­ÒéÓëÉùÃ÷ -- ";
+		cout << "åè®®ä¸Žå£°æ˜Ž -- ";
 	color(1,0,1);
 	cout << "state" << endl;
 	color(0,1,1);
@@ -157,7 +157,7 @@ void help()
 	if(lan=="en")
 		cout << "START PING -- ";
 	if(lan=="ch")
-		cout << "¿ªÊ¼Ping -- ";
+		cout << "å¼€å§‹Ping -- ";
 	color(1,0,1);
 	cout << "start" << endl;
 	color(0,1,1);
@@ -167,7 +167,7 @@ void help()
 	if(lan=="en")
 		cout << "STOP PING -- ";
 	if(lan=="ch")
-		cout << "Í£Ö¹Ping -- ";
+		cout << "åœæ­¢Ping -- ";
 	color(1,0,1);
 	cout << "stop" << endl;
 	color(0,1,1);
@@ -175,9 +175,9 @@ void help()
 	cout << "|__";
 	color(1,1,0);
 	if(lan=="en")
-		cout << "VIEW THE PING PARAMETER -- ";
+		cout << "VIEW THE PARAMETER -- ";
 	if(lan=="ch")
-		cout << "²é¿´Ping²ÎÊý -- ";
+		cout << "æŸ¥çœ‹Pingå‚æ•° -- ";
 	color(1,0,1);
 	cout << "view" << endl;
 	color(0,1,1);
@@ -187,7 +187,7 @@ void help()
 	if(lan=="en")
 		cout << "SET LANGUAGE -- ";
 	if(lan=="ch")
-		cout << "ÉèÖÃÓïÑÔ -- ";
+		cout << "è®¾ç½®è¯­è¨€ -- ";
 	color(1,0,1);
 	cout << "language" << endl;
 	color(0,1,1);
@@ -311,27 +311,27 @@ int main()
 				cout << "'github'";
 				color(1,1,1);
 				cout << " to watch the project on github!" << endl;
-				cout << "£Â£ù¡¡£÷£á£ô£å£ò£â£ì£ï£ã£ë£·£¹¡¡£ï£î¡¡£ç£é£ô£è£õ£â" << endl;
+				cout << "ï¼¢ï½™ã€€ï½—ï½ï½”ï½…ï½’ï½‚ï½Œï½ï½ƒï½‹ï¼—ï¼™ã€€ï½ï½Žã€€ï½‡ï½‰ï½”ï½ˆï½•ï½‚" << endl;
 				color(0,0,1);
 			}
 			if(lan=="ch")
 			{
 				color(1,1,1);
-				cout << "¸Ã¹¤³ÌÊ¹ÓÃGNUÍ¨ÓÃ¹«¹²Ðí¿ÉÖ¤v3.0." << endl;
-				cout << "Äã¿ÉÒÔÊ¹ÓÃÖ¸Áî: ";
+				cout << "è¯¥å·¥ç¨‹ä½¿ç”¨GNUé€šç”¨å…¬å…±è®¸å¯è¯v3.0." << endl;
+				cout << "ä½ å¯ä»¥ä½¿ç”¨æŒ‡ä»¤: ";
 				color(0,0,1);
 				cout << "'lincense'";
 				color(1,1,1);
-				cout << " À´²é¿´GNUÍ¨ÓÃ¹«¹²Ðí¿ÉÖ¤v3.0" << endl;
+				cout << " æ¥æŸ¥çœ‹GNUé€šç”¨å…¬å…±è®¸å¯è¯v3.0" << endl;
 				color(1,0,0);
-				cout << "**ÄúÊ¹ÓÃ¸Ã¹¤¾ßÔì³ÉµÄÈÎºÎºó¹û¾ùÓë¸Ã¹¤¾ß×÷ÕßÎÞ¹Ø£¬Äú½«³Ðµ£È«²¿ÔðÈÎ**" << endl;
+				cout << "**æ‚¨ä½¿ç”¨è¯¥å·¥å…·é€ æˆçš„ä»»ä½•åŽæžœå‡ä¸Žè¯¥å·¥å…·ä½œè€…æ— å…³ï¼Œæ‚¨å°†æ‰¿æ‹…å…¨éƒ¨è´£ä»»**" << endl;
 				color(1,1,1);
-				cout << "##Äã¿ÉÒÔÊ¹ÓÃÖ¸Áî: ";
+				cout << "##ä½ å¯ä»¥ä½¿ç”¨æŒ‡ä»¤: ";
 				color(0,0,1);
 				cout << "'github'";
 				color(1,1,1);
-				cout << " À´²é¿´Õâ¸ö¹¤³ÌÔÚGitHubÉÏ£¡" << endl;
-				cout << "¹¤³ÌÓÉÀ´×Ô£ç£é£ô£è£õ£âµÄ£÷£á£ô£å£ò£â£ì£ï£ã£ë£·£¹ÖÆ×÷" << endl;
+				cout << " æ¥æŸ¥çœ‹è¿™ä¸ªå·¥ç¨‹åœ¨GitHubä¸Šï¼" << endl;
+				cout << "å·¥ç¨‹ç”±æ¥è‡ªï½‡ï½‰ï½”ï½ˆï½•ï½‚çš„ï½—ï½ï½”ï½…ï½’ï½‚ï½Œï½ï½ƒï½‹ï¼—ï¼™åˆ¶ä½œ" << endl;
 				color(0,0,1);
 			}
 			cout << "======================================================" << endl;
@@ -378,21 +378,21 @@ int main()
 				if(lan=="ch")
 				{
 					color(0,1,0);
-					cout << "[³É¹¦]";
+					cout << "[æˆåŠŸ]";
 					color(1,1,1);
-					cout << "³É¹¦¿ªÊ¼Ping£¡" << endl;
+					cout << "æˆåŠŸå¼€å§‹Pingï¼" << endl;
 					color(0,1,0);
-					cout << "[ÐÅÏ¢]";
+					cout << "[ä¿¡æ¯]";
 					color(1,1,1);
-					cout << "Ping°ü´óÐ¡=" << pingsize << endl;
+					cout << "PingåŒ…å¤§å°=" << pingsize << endl;
 					color(0,1,0);
-					cout << "[ÐÅÏ¢]";
+					cout << "[ä¿¡æ¯]";
 					color(1,1,1);
-					cout << "PingµÄÍøÖ·»òIP=" << pingsite << endl;
+					cout << "Pingçš„ç½‘å€æˆ–IP=" << pingsite << endl;
 					color(0,1,0);
-					cout << "[ÐÅÏ¢]";
+					cout << "[ä¿¡æ¯]";
 					color(1,1,1);
-					cout << "PingÏß³Ì=" << pingthreads << endl;
+					cout << "Pingçº¿ç¨‹=" << pingthreads << endl;
 				}
 				continue;
 			}
@@ -403,14 +403,14 @@ int main()
 					color(1,0,0);
 					cout << "[ERROR]";
 					color(1,1,1);
-					cout << "You Never Set What WebSite or IP You Want To PING!" << endl;
+					cout << "You Haven't Set A WebSite or IP You Want To PING!" << endl;
 				}
 				if(lan=="ch")
 				{
 					color(1,0,0);
-					cout << "[´íÎó]";
+					cout << "[é”™è¯¯]";
 					color(1,1,1);
-					cout << "ÄãÃ»ÓÐÉèÖÃÄãÒªPingµÄIP»òÍøÖ·£¡" << endl;
+					cout << "ä½ æ²¡æœ‰è®¾ç½®ä½ è¦Pingçš„IPæˆ–ç½‘å€ï¼" << endl;
 				}
 			}
 			continue;
@@ -429,9 +429,9 @@ int main()
 			if(lan=="ch")
 			{
 				color(0,1,0);
-				cout << "[³É¹¦]";
+				cout << "[æˆåŠŸ]";
 				color(1,1,1);
-				cout << "PingÒÑ±»Í£Ö¹" << endl;
+				cout << "Pingå·²è¢«åœæ­¢" << endl;
 			}
 			continue;
 		}
@@ -445,9 +445,9 @@ int main()
 			}
 			if(lan=="ch")
 			{
-				cout << "Ping°ü´óÐ¡=" << pingsize << endl;
-				cout << "PingµÄÍøÖ·»òIP=" << pingsite << endl;
-				cout << "PingÏß³ÌÊý=" << pingthreads << endl;
+				cout << "PingåŒ…å¤§å°=" << pingsize << endl;
+				cout << "Pingçš„ç½‘å€æˆ–IP=" << pingsite << endl;
+				cout << "Pingçº¿ç¨‹æ•°=" << pingthreads << endl;
 			}
 			continue;
 		}
@@ -469,7 +469,7 @@ int main()
 			color(0,0,1);
 			cout << "   ENGLISH    en" << endl;
 			color(0,1,0);
-			cout << "    ÖÐÎÄ      ch" << endl;
+			cout << "    ä¸­æ–‡      ch" << endl;
 			color(1,1,1);
 			cout << "Please input the language code >> " ;
 			cin >> lan;
@@ -488,9 +488,9 @@ int main()
 				if(lan=="ch")
 				{
 					color(0,1,0);
-					cout << "[³É¹¦]";
+					cout << "[æˆåŠŸ]";
 					color(1,1,1);
-					cout << "ÒÑÉèÖÃÓïÑÔÎª(¼òÌå)ÖÐÎÄ¡£" << endl;
+					cout << "å·²è®¾ç½®è¯­è¨€ä¸º(ç®€ä½“)ä¸­æ–‡ã€‚" << endl;
 				}
 				logo(false);
 				continue;
@@ -516,9 +516,9 @@ int main()
 			if(lan=="ch")
 			{
 				color(1,0,0);
-				cout << "[´íÎó]";
+				cout << "[é”™è¯¯]";
 				color(1,1,1);
-				cout << "´íÎóµÄÖ¸Áî" << endl;
+				cout << "é”™è¯¯çš„æŒ‡ä»¤" << endl;
 			}
 			continue;
 		}
@@ -539,9 +539,9 @@ int main()
 					if(lan=="ch")
 					{
 						color(1,0,0);
-						cout << "[´íÎó]";
+						cout << "[é”™è¯¯]";
 						color(1,1,1);
-						cout << "Ping°ü´óÐ¡±ØÐë½éÓÚ32ºÍ65500Ö®¼ä" << endl;
+						cout << "PingåŒ…å¤§å°å¿…é¡»ä»‹äºŽ32å’Œ65500ä¹‹é—´" << endl;
 					}
 					pingsize=10000;
 				} 
@@ -558,9 +558,9 @@ int main()
 					if(lan=="ch")
 					{
 						color(0,1,0);
-						cout << "[³É¹¦]";
+						cout << "[æˆåŠŸ]";
 						color(1,1,1);
-						cout << "ÒÑÉèÖÃPing°ü´óÐ¡Îª=" << pingsize << " (±ÈÌØ)" << endl;
+						cout << "å·²è®¾ç½®PingåŒ…å¤§å°ä¸º=" << pingsize << " (æ¯”ç‰¹)" << endl;
 					}
 				}
 				continue;
@@ -573,14 +573,14 @@ int main()
 					color(0,1,0);
 					cout << "[SUCCESS]";
 					color(1,1,1);
-					cout << "Set the ping website or IP:" << pingsite << endl;
+					cout << "Set the website or IP :" << pingsite << endl;
 				}
 				if(lan=="ch")
 				{
 					color(0,1,0);
-					cout << "[³É¹¦]";
+					cout << "[æˆåŠŸ]";
 					color(1,1,1);
-					cout << "ÒÑÉèÖÃPingÄ¿±êÍøÖ·»òIPÎª" << pingsite << endl;
+					cout << "å·²è®¾ç½®Pingç›®æ ‡ç½‘å€æˆ–IPä¸º" << pingsite << endl;
 				}
 				continue;
 			}
@@ -599,11 +599,11 @@ int main()
 				if(lan=="ch")
 				{
 					color(0,1,0); 
-					cout << "[³É¹¦]";
+					cout << "[æˆåŠŸ]";
 					color(1,1,1);
-			 		cout << "ÉèÖÃPingÏß³ÌÎª " << pingthreads << endl;
+			 		cout << "è®¾ç½®Pingçº¿ç¨‹ä¸º " << pingthreads << endl;
 			 		if(pingthreads>200)
-				 		cout << "ÇëÈ·±£ÄúµÄµçÄÔ²»»áÒòÎªÏß³Ì¹ý¶à¶ø±ÀÀ££¡" << endl;
+				 		cout << "è¯·ç¡®ä¿æ‚¨çš„ç”µè„‘ä¸ä¼šå› ä¸ºçº¿ç¨‹è¿‡å¤šè€Œå´©æºƒï¼" << endl;
 				}
 			 	continue;
 			}
@@ -617,9 +617,9 @@ int main()
 			if(lan=="ch")
 			{
 				color(1,0,0);
-				cout << "[´íÎó]";
+				cout << "[é”™è¯¯]";
 				color(1,1,1);
-				cout << "´íÎóµÄÖ¸Áî" << endl;
+				cout << "é”™è¯¯çš„æŒ‡ä»¤" << endl;
 			}
 		ord="";
 	}
